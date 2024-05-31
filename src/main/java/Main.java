@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
-        int count = 100;
+        int count = 10;
         while (count>0) {
             System.out.println(new String(new char[50]).replace("\0", "\r\n"));
             System.out.println("您还能选择"+count+"次");
